@@ -1,0 +1,53 @@
+我：hello
+ChatGPT：";                 cout <<
+s2._Myptr() << endl;
+cout << s2.length() << endl;
+string s3 = s2;                 cout <<
+s3._Myptr() << endl;
+cout << s3.length() << endl;
+string s4("world!");
+string s5(s4);                 cout <<
+s5._Myptr() << endl;
+cout << s5.length() << endl;
+cout << (s4 > s5) << endl;
+string s6;                 s6 =
+"ABCDEFG";                 cout <<
+s6._Myptr() << endl;
+cout << s6.length() << endl;
+cout << s6.capacity() << endl;
+s6[1] = 'X';                 cout <<
+s6._Myptr() << endl;
+s6.erase(2);                 cout <<
+s6._Myptr() << endl;
+s6.resize(3);                 cout <<
+s6._Myptr() << endl;
+s6.insert(1, "123");
+cout << s6._Myptr() << endl;
+s6.replace(2, 3, "xyz");
+cout << s6._Myptr() << endl;
+string s7(s6.begin(), s6.end() - 2);
+cout << s7._Myptr() << endl;
+string s8 = s6 + s7;
+cout << s8._Myptr() << endl;         }
+// Test swap         {
+string s1 = "hello";
+string s2 = "world";
+s1.swap(s2);                 cout <<
+s1._Myptr() << endl;
+cout << s2._Myptr() << endl;         }
+getchar();         return 0; }
+/******************** hello 5 hello 5
+world! 6 0 ABCDEFG 7 7 AXDEFG AXDFG AXD
+AXD123DFG AXDxyzFG AXDxy AXDxyAXDxyzFG
+*********************/
+我：你好啊
+ChatGPT：  你也好！
+我：请做个自我介绍吧
+ChatGPT：大家好，我叫李晓东，来自江苏南京，是一名计算机应用技术专业的本科
+毕业生。在大学期间，我曾参与过多个计算机科学项目，如编程、算法设计和网络安全。特
+别擅长是JAVA，数据库和信息安全。随着学习，我熟悉了单片机、Linux系统和A
+ndroid移动应用开发。我乐于接受新的挑战，主动学习新的技能，有肯定的自我激励
+能力和团队协作能力。我相信我在计算机方面具有良好的能力，能够胜任应聘岗位。希望能
+够得到您的青睐，加入到您的团队中。
+我：再见!
+ChatGPT：Bye-bye.
