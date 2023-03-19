@@ -11,7 +11,7 @@ import os
 import textwrap
 
 # 设置您的 API 密钥
-openai.api_key = "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"
+openai.api_key = "private-API-Key"
 context = []
 
 
