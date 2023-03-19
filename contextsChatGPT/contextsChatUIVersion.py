@@ -13,7 +13,7 @@ import openai
 from PyQt5.QtWidgets import QWidget, QTextEdit, QLineEdit, QVBoxLayout, QHBoxLayout, QPushButton, QApplication
 
 # 设置 API 密钥
-openai.api_key = "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"
+openai.api_key = "private-API-Key"
 
 context = []
 
